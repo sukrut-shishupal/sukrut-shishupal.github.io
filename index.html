@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sukrut Shishupal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sukrut Shishupal</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sukrut Shishupal</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Sukrut Shishupal profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sukrut Shishupal</h1>
+        <p class="section__text__p2">
+            <span class="typed" data-typed-items="Artificial Intelligence, Data Visualization, Image Processing, Computer Vision"></span>
+          </p>
+        
+          <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              var options = {
+                strings: document.querySelector('.typed').getAttribute('data-typed-items').split(', '),
+                typeSpeed: 50,
+                backSpeed: 25,
+                loop: true
+              };
+        
+              new Typed('.typed', options);
+            });
+          </script>
+
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume_Sukrut_Shishupal.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/sukrutshishupal/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/sukrut56'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Software Developer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              
+              <p>M.S. Biomedical Informatics<br/>M.Sc. Bioinformatics and Biotechnology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              As a PhD candidate in Computer Science at the University of Utah, I am deeply passionate about technology and its transformative potential. 
+              My research focuses on advancing cutting-edge domains such as artificial intelligence, machine learning, and data science. 
+              I am committed to exploring innovative solutions that can address complex real-world problems. 
+              With a solid foundation in both theoretical and practical aspects of computer science, I strive to contribute to the ever-evolving tech landscape. 
+              My journey is driven by a curiosity to understand and harness technology's power to make a meaningful impact on society.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data Science</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Deep Learning</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine Learning</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Artificial Intelligence</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bioinformatics</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Healthcare Analytics</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Natural Language Processing</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Certifications</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Deep Learning</h3>
+                  <p>Udemy</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AI for Medical Diagnosis</h3>
+                  <p>DeepLearning.AI</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Science Bootcamp</h3>
+                  <p>Udemy</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Google Data Analytics Certificate</h3>
+                  <p>Google</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Image Recognition with Neural Netwroks</h3>
+                  <p>Udemy</p>
+                </div>
+              </article>
+            </div>
+          </div>  
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="publications">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Publications</h1>
+      <div class="publications-container">
+        <div class="details-container color-container">
+          <p class="publication-details">
+            Mollie R Cummins, <b>Sukrut Shishupal</b>, Bob Wong, Neng Wan, Jiuying Han, Jace D Johnny, Amy Mhatre-Owens, Ramkiran Gouripeddi, Julia Ivanova, Triton Ong, Hiral Soni, Janelle Barrera, Hattie Wilczewski, Brandon M Welch, Brian E Bunnell<br />
+            Journal of medical Internet research, 2024 May 15<br />
+            Travel Distance Between Participants in US Telemedicine Sessions With Estimates of Emissions Savings: Observational Study <br />
+            DOI: <a href="https://www.jmir.org/2024/1/e53437" target="_blank">10.2196/53437</a>
+          </p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 publication-btn"
+              onclick="location.href='https://www.jmir.org/2024/1/e53437/PDF'"
+            >
+              PDF
+            </button>
+            <button
+              class="btn btn-color-2 publication-btn"
+              onclick="location.href='https://www.jmir.org/2024/1/e53437'"
+            >
+              View Online
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <p class="publication-details">
+            Mollie R Cummins, Bob Wong, Neng Wan, Jiuying Han, <b>Sukrut D Shishupal</b>, Ramkiran Gouripeddi, Julia Ivanova, Asiyah Franklin, Triton Ong, Jace Johnny, Brandon M Welch, Brian E Bunnell<br />
+            Social Vulnerability and Rurality Associated with Lower Telemedicine Use in U.S. Counties<br />
+            THE LANCET, PREPRINT 2024<br />
+            <!--
+            DOI: <a href="https://doi.org/your-doi" target="_blank">10.xxxx/xxxxx</a>
+            -->
+          </p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 publication-btn"
+              onclick="location.href='https://papers.ssrn.com/sol3/Delivery.cfm/34e339cc-a4c9-42a6-8ffc-e9daf325171e-MECA.pdf?abstractid=4726267&mirid=1'"
+            >
+              PDF
+            </button>
+            <button
+              class="btn btn-color-2 publication-btn"
+              onclick="location.href='https://dx.doi.org/10.2139/ssrn.4726267'"
+            >
+              View Online
+            </button>
+          </div>
+        </div>
+    </section>    
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">sukrut.shishupal@utah.edu</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/sukrutshishupal/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
