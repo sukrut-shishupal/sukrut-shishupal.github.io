@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year PhD student in the **Department of Biomedical Informatics** at the **University of Utah**, advised by Dr. [Kathy Sward](https://medicine.utah.edu/faculty/katherine-sward), Dr. [Ramkiran Gouripeddi](https://medicine.utah.edu/faculty/ramkiran-gouripeddi) and Dr. [Mollie Cummins](https://medicine.utah.edu/faculty/mollie-r-cummins). 
+I am a second-year PhD student in the **Department of Biomedical Informatics** at the **University of Utah**, advised by Dr. [Kathy Sward](https://medicine.utah.edu/faculty/katherine-sward), Dr. [Ramkiran Gouripeddi](https://medicine.utah.edu/faculty/ramkiran-gouripeddi) and Dr. [Mollie Cummins](https://medicine.utah.edu/faculty/mollie-r-cummins). 
 
 I hold a Master’s degree in **Biomedical Informatics (Data Science Track)** from the same university and a combined **B.Sc. and M.Sc. in Bioinformatics and Biotechnology** from Savitribai Phule Pune University, India. 
 
