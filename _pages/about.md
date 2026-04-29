@@ -8,37 +8,33 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year PhD student in the **Department of Biomedical Informatics** at the **University of Utah**, advised by Dr. [Kathy Sward](https://medicine.utah.edu/faculty/katherine-sward), Dr. [Ramkiran Gouripeddi](https://medicine.utah.edu/faculty/ramkiran-gouripeddi) and Dr. [Mollie Cummins](https://medicine.utah.edu/faculty/mollie-r-cummins). 
+I am a PhD Candidate in the **Department of Biomedical Informatics** at **University of Utah**, where I am advised by Dr. [Kathy Sward](https://medicine.utah.edu/faculty/katherine-sward), and Dr. [Ramkiran Gouripeddi](https://medicine.utah.edu/faculty/ramkiran-gouripeddi). My research focuses on machine learning, time-series analytics, and computational approaches for modeling high-resolution environmental exposures and their impact on health outcomes.
 
-I hold a Master’s degree in **Biomedical Informatics (Data Science Track)** from the same university and a combined **B.Sc. and M.Sc. in Bioinformatics and Biotechnology** from Savitribai Phule Pune University, India. 
+I hold a Master’s degree in **Biomedical Informatics (Data Science Track)** from **The University of Utah** and an integrated **BS-MS in Bioinformatics and Biotechnology** from Savitribai Phule Pune University, India. 
 
-I am also a part of the [**SMARTER project**](https://www.smarterexposurehealth.org/overview), contributing to research focused on improving healthcare systems and outcomes.
+I am a contributer to the [**SMARTER project**](https://www.smarterexposurehealth.org/overview), where I work on developing data-driven methods to improve exposure assessment and support more effective healthcare decision-making.
 
-### Academic and Professional Journey
+### Research and Professional Experience
 
-During my academic career, I have developed skills in data analysis, machine learning, and computational modeling, working on projects that span multiple domains!
-My academic journey reflects a strong commitment to interdisciplinary research, combining my love for biology, technology, and data science.
+My work lies at the intersection of **machine learning, environmental health, and biomedical informatics**. I develop scalable computational methods for analyzing large-scale, high-resolution sensor and health data, with a particular emphasis on interpretable time-series modeling. My research includes building reusable analytical frameworks for identifying temporal patterns in environmental exposures and linking them to downstream health and behavioral outcomes.
 
-- **M.Sc. Thesis**: Binding affinity prediction of protein-protein complexes using machine learning, integrating Python, R, and graph-based methods.
-- **Research Assistant**: Played a pivotal role in the **PCORnet RECOVER EHR Project**, coordinating with diverse teams to analyze telemedicine data and implement visualization frameworks.
-- **Software Engineer**: Leveraged programming expertise to develop solutions in the automation industry before transitioning into research and data science.
+I have experience working with multidisciplinary teams across informatics, medicine, and public health, contributing to projects that translate data science methods into practical healthcare and population health applications.
 
-### Publications and Conferences
+### Publications and Presentations
 
-I have contributed to peer-reviewed publications, including the [**Journal of Medical Internet Research**](https://sukrut-shishupal.github.io/publications/), and presented at [conferences](https://sukrut-shishupal.github.io/talks/) such as **DELPHI Symposium**. My research on telemedicine and emissions savings has been recognized for its innovative use of data science to address healthcare challenges.
+I have contributed to peer-reviewed publications, including work published in the [**Journal of Medical Internet Research**](https://sukrut-shishupal.github.io/publications/), and have presented at [conferences](https://sukrut-shishupal.github.io/talks/) such as **DELPHI Symposium**. My research on telemedicine and emissions savings has been recognized for its innovative use of data science to address healthcare challenges.
 
-### Beyond Academia
+### Leadership and Service
 
-In addition to my academic and research pursuits, I am deeply engaged in community-building and leadership activities. I served as a **student representative for two years** in the Department of Biomedical Informatics, where I advocated for graduate student interests and helped foster a collaborative environment. 
+In addition to my academic and research pursuits, I am deeply engaged in community-building and leadership activities. I served as a **Graduate Student Representative for two years** in the Department of Biomedical Informatics, contributing to student advocacy and departmental initiatives. 
 
-As the [**treasurer for the Indian Students Association**](https://indianstudentsatutah.org/team.html), I managed finances and led strategic initiatives to support cultural events and student welfare.
+I also served as [**treasurer** of the Indian Students Association](https://indianstudentsatutah.org/team.html), where I managed organizational finances and supported programming aimed at fostering community engagement and cultural exchange.
 
-My passion for outreach includes volunteering with educational and environmental initiatives, from teaching microbiology techniques to middle school students to organizing trekking activities. Notably, I received the **Best Instructor Award** for mentoring students during a week-long biological science workshop.
+### Teaching Skills
 
-Furthermore, I captained my department’s football and volleyball teams for five years, leading them to wins, showcasing my dedication to teamwork and perseverance both on and off the field.
+I am proficient in **Python, R, SQL, and Java**, with experience in machine learning, statistical modeling, and large-scale data analysis. My work includes developing end-to-end data pipelines, working with high-performance computing systems, and building reproducible analytical workflows.
 
-### Skills and Interests
+### Interests
 
-I am proficient in **Python, R, SQL, JAVA**. My technical expertise is complemented by a love for **sports**, having captained my department’s football and volleyball teams for five years, and a passion for trekking and exploring the outdoors.
+Outside of research, I am actively engaged in sports and outdoor activities, including football, volleyball, and trekking. I value teamwork, leadership, and collaboration, both in academic environments and beyond.
 
-Here is my [[cv]](https://sukrut-shishupal.github.io/cv/).
