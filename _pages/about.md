@@ -8,11 +8,29 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD Candidate in the **Department of Biomedical Informatics** at **University of Utah**, where I am advised by Dr. [Kathy Sward](https://medicine.utah.edu/faculty/katherine-sward), and Dr. [Ramkiran Gouripeddi](https://medicine.utah.edu/faculty/ramkiran-gouripeddi). My research focuses on machine learning, time-series analytics, and computational approaches for modeling high-resolution environmental exposures and their impact on health outcomes.
+<div align="center" style="margin-top: 20px; margin-bottom: 30px;">
 
-I hold a Master’s degree in **Biomedical Informatics (Data Science Track)** from **The University of Utah** and an integrated **BS-MS in Bioinformatics and Biotechnology** from Savitribai Phule Pune University, India. 
+  <h1 style="font-weight: 700;">
+    <span style="
+      color:#2563EB;
+      text-shadow: 0 0 8px rgba(37,99,235,0.45),
+                   0 0 16px rgba(37,99,235,0.30);
+    ">
+      Hi there, I'm Sukrut!
+    </span>
+  </h1>
 
-I am a contributer to the [**SMARTER project**](https://www.smarterexposurehealth.org/overview), where I work on developing data-driven methods to improve exposure assessment and support more effective healthcare decision-making.
+  <p style="font-size: 18px; margin-top: -5px;">
+    ✨ Machine Learning | Time-Series Analytics | Biomedical Informatics | Health AI ✨
+  </p>
+
+</div>
+
+I am a PhD Candidate in the **Department of Biomedical Informatics** at the **University of Utah**, where I am advised by Dr. [Kathy Sward](https://medicine.utah.edu/faculty/katherine-sward) and Dr. [Ramkiran Gouripeddi](https://medicine.utah.edu/faculty/ramkiran-gouripeddi). My research focuses on machine learning, time-series analytics, and computational approaches for modeling high-resolution environmental exposures and their impact on health outcomes.
+
+I hold a Master’s degree in **Biomedical Informatics (Data Science Track)** from the **University of Utah** and an integrated **BS-MS in Bioinformatics and Biotechnology** from Savitribai Phule Pune University, India.
+
+I am a contributor to the [**SMARTER project**](https://www.smarterexposurehealth.org/overview), where I work on developing data-driven methods to improve exposure assessment and support more effective healthcare decision-making.
 
 ### Research and Professional Experience
 
@@ -22,19 +40,18 @@ I have experience working with multidisciplinary teams across informatics, medic
 
 ### Publications and Presentations
 
-I have contributed to peer-reviewed publications, including work published in the [**Journal of Medical Internet Research**](https://sukrut-shishupal.github.io/publications/), and have presented at [conferences](https://sukrut-shishupal.github.io/talks/) such as **DELPHI Symposium**. My research on telemedicine and emissions savings has been recognized for its innovative use of data science to address healthcare challenges.
+I have contributed to peer-reviewed publications, including work published in the [**Journal of Medical Internet Research**](https://sukrut-shishupal.github.io/publications/), and have presented at [conferences](https://sukrut-shishupal.github.io/talks/) such as the **DELPHI Symposium**. My research on telemedicine and emissions savings highlights the use of data science to address healthcare and sustainability challenges.
 
 ### Leadership and Service
 
-In addition to my academic and research pursuits, I am deeply engaged in community-building and leadership activities. I served as a **Graduate Student Representative for two years** in the Department of Biomedical Informatics, contributing to student advocacy and departmental initiatives. 
+In addition to my academic and research work, I am actively involved in community-building and leadership. I served as a **Graduate Student Representative for two years** in the Department of Biomedical Informatics, contributing to student advocacy and departmental initiatives.
 
-I also served as [**treasurer** of the Indian Students Association](https://indianstudentsatutah.org/team.html), where I managed organizational finances and supported programming aimed at fostering community engagement and cultural exchange.
+I also served as [**Treasurer of the Indian Students Association**](https://indianstudentsatutah.org/team.html), where I managed organizational finances and supported programming aimed at fostering community engagement and cultural exchange.
 
-### Teaching Skills
+### Technical Skills
 
 I am proficient in **Python, R, SQL, and Java**, with experience in machine learning, statistical modeling, and large-scale data analysis. My work includes developing end-to-end data pipelines, working with high-performance computing systems, and building reproducible analytical workflows.
 
 ### Interests
 
-Outside of research, I am actively engaged in sports and outdoor activities, including football, volleyball, and trekking. I value teamwork, leadership, and collaboration, both in academic environments and beyond.
-
+Outside of research, I enjoy sports and outdoor activities, including football, volleyball, hiking, and trekking. I value teamwork, leadership, and collaboration both in academic environments and beyond.
