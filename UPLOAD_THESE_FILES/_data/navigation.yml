@@ -1,0 +1,11 @@
+main:
+  - title: "Work"
+    url: /#work
+  - title: "Experience"
+    url: /experience/
+  - title: "Publications"
+    url: /publications/
+  - title: "Résumé"
+    url: /cv/
+  - title: "Contact"
+    url: /#contact
