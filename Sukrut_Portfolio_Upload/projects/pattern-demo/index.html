@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Try temporal pattern search · Sukrut Shishupal, PhD</title>
+<meta name="description" content="A small, reproducible example using synthetic daily observations. No clinical records or external services are required.">
+<link rel="canonical" href="https://sukrut-shishupal.github.io/projects/pattern-demo/">
+<meta property="og:type" content="website"><meta property="og:title" content="Try temporal pattern search · Sukrut Shishupal, PhD">
+<meta property="og:description" content="A small, reproducible example using synthetic daily observations. No clinical records or external services are required.">
+<meta property="og:url" content="https://sukrut-shishupal.github.io/projects/pattern-demo/"><meta property="og:image" content="https://sukrut-shishupal.github.io/images/profile2.jpg">
+<meta name="theme-color" content="#153f3c"><link rel="icon" href="../../assets/images/career-mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../assets/css/career.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header"><div class="container nav-wrap">
+<a class="brand" href="../../index.html" aria-label="Dr. Sukrut Shishupal, home"><span class="brand-mark" aria-hidden="true">S<span>.</span></span><span>Dr. Sukrut Shishupal</span></a>
+<nav aria-label="Main navigation"><a href="../../index.html#work">Work</a><a href="../../experience/index.html">Experience</a><a href="../../publications/index.html">Publications</a><a href="../../cv/index.html">Résumé</a><a class="nav-contact" href="../../index.html#contact">Let’s connect <span aria-hidden="true">↗</span></a></nav>
+</div></header>
+<main id="main"><div class="container"><div class="page-head"><a class="back" href="../../index.html#work">← Back to selected work</a><p class="eyebrow">Reproducible example · Synthetic data</p><h1>Try temporal pattern search</h1><p class="lede">A small, reproducible example using synthetic daily observations. No clinical records or external services are required.</p></div><div class="content-grid"><aside><dl class="facts"><div class="fact"><dt>Input</dt><dd>35 synthetic daily observations</dd></div><div class="fact"><dt>Window</dt><dd>7 observations</dd></div><div class="fact"><dt>Runtime</dt><dd>Python standard library</dd></div><div class="fact"><dt>Scope</dt><dd>Educational similarity search</dd></div></dl></aside><article class="prose">
+<h2>What the example does</h2><p>A seven-day query is compared with windows from a short synthetic series. Eligible windows are normalized and ranked by Euclidean distance. The example demonstrates data-quality handling and similarity retrieval with a few readable functions.</p>
+<h2>Run it locally</h2><ol><li>Download and extract the example ZIP.</li><li>Open a terminal in the extracted folder.</li><li>Run the command below with Python 3.10 or newer.</li></ol><pre><code>python search_patterns.py</code></pre><p>No third-party Python packages are required.</p>
+<h2>What to look for</h2><p>The windows starting January 1 and January 15 have the same normalized shape despite different absolute values, so both have zero distance to the query. Constant windows and windows with two missing values are excluded.</p>
+<h2>How it differs from the research system</h2><p>This educational example uses window-level normalization, a fixed query, and exhaustive search over a tiny synthetic dataset. It is not the published SMARTER pipeline, which uses site-level normalization and a larger extraction and retrieval workflow. The output is not a research result or performance benchmark.</p><div class="actions"><a class="button" href="../../files/temporal-search-example.zip" download>Download runnable example ↓</a><a class="button secondary" href="../../examples/temporal-search/search_patterns.py" download>Download Python source ↓</a><a class="text-link" href="../exposure-library/index.html">Read the research case study ↗</a></div>
+</article></div></div></main><footer class="footer"><div class="container footer-inner"><p>© 2026 Sukrut Shishupal</p><div><a href="../../talks/index.html">Talks</a><a href="../../teaching/index.html">Teaching</a><a href="https://github.com/sukrut-shishupal">GitHub</a><a href="https://www.linkedin.com/in/sukrutshishupal/">LinkedIn</a><a href="mailto:sukrut.shishupal@gmail.com">Email</a></div></div></footer>
+<script src="../../assets/js/career.js" defer></script>
+</body></html>
